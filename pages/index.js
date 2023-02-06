@@ -30,12 +30,7 @@ window.fcWidget.user.setFirstName("John");
 // To set user email
 window.fcWidget.user.setEmail("john.doe@gmail.com");
 
-// To set user properties
-// Note that any other fields passed as properties which are not in the CRM Contact properties already, they will be ignored.
-window.fcWidget.user.setProperties({
-  "cf_plan": "Pro",                 // meta property 1
-  "cf_status": "Active"             // meta property 2
-});
+
 </script>
 
       <Footer />
